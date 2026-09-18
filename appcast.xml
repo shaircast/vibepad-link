@@ -6,15 +6,29 @@
     <description>Vibepad Link macOS update feed.</description>
     <language>en</language>
     <item>
-      <title>Vibepad Link 0.2.0</title>
+      <title>Vibepad Link 0.2.1</title>
       <description><![CDATA[
-        <h2>What’s New</h2>
         <ul>
-          <li>Open a native Settings window from the menu bar.</li>
-          <li>Review Bluetooth, Accessibility, trusted-device, and startup status in one place.</li>
-          <li>Reopen Settings later to change startup behavior or review app information.</li>
+          <li>Resume pending setup events when Bluetooth is ready to send again, including the first successful test input.</li>
+          <li>Report failed input attempts during Finish Setup.</li>
         </ul>
       ]]></description>
+      <pubDate>Fri, 18 Sep 2026 10:07:16 +0900</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/shaircast/vibepad-link/releases/download/v0.2.1/VibepadLink-macOS.dmg" length="2685666" sparkle:edSignature="ro2LgMfADsPoM1YWDn+M4UFkCqk4KcVVasoJ3iu/ml1l3PFnpnvU5GRziIkTzJG/QnbGmL31VYPcS8DMs5cGDA==" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
+      <title>Vibepad Link 0.2.0</title>
+      <description>
+        &lt;h2&gt;What’s New&lt;/h2&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Open a native Settings window from the menu bar.&lt;/li&gt;
+          &lt;li&gt;Review Bluetooth, Accessibility, trusted-device, and startup status in one place.&lt;/li&gt;
+          &lt;li&gt;Reopen Settings later to change startup behavior or review app information.&lt;/li&gt;
+        &lt;/ul&gt;
+      </description>
       <pubDate>Mon, 31 Aug 2026 03:53:37 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
       <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
