@@ -22,6 +22,7 @@ Vibepad Link is the desktop-side bridge for Vibepad.
 
 - Connects to the Vibepad app over Bluetooth Low Energy
 - Receives keyboard, mouse, and text input events
+- On Mac, streams phone audio into the Vibepad Mic input for a desktop dictation app (Vibepad 0.7.0+); Bluetooth microphone is not yet supported on Windows
 - Runs quietly in the menu bar on macOS or the system tray on Windows
 - Lets one release page serve both desktop platforms
 
@@ -29,8 +30,8 @@ Vibepad Link is the desktop-side bridge for Vibepad.
 
 | Platform | Version | Asset | Notes |
 | --- | --- | --- | --- |
-| macOS | 0.2.1 | `VibepadLink-macOS.dmg` | Notarized DMG with drag-and-drop install; auto-updates in-app from 0.0.6 |
-| Windows | 0.2.1 | `VibepadLink-Windows.exe` | Portable executable |
+| macOS | 0.3.0 | `VibepadLink-macOS.dmg` | Notarized DMG with drag-and-drop install; auto-updates in-app from 0.0.6 |
+| Windows | 0.3.0 | `VibepadLink-Windows.exe` | Portable executable |
 
 Get both from the [Releases page](https://github.com/shaircast/vibepad-link/releases).
 
@@ -42,6 +43,8 @@ Get both from the [Releases page](https://github.com/shaircast/vibepad-link/rele
 2. Open the DMG and drag `Vibepad Link.app` into `Applications`.
 3. Launch the app from `Applications`.
 4. If prompted, grant `Accessibility` permission in `System Settings > Privacy & Security > Accessibility`.
+
+For Bluetooth microphone use, install **Vibepad Mic** from Finish Setup or Settings → Microphone (administrator approval required), then select **Vibepad Mic** as the input in your Mac dictation app. In Vibepad 0.7.0+, add a Microphone button or use the Mac Claude Code / Cursor preset. Tap to toggle or hold to talk; keep the phone app open while speaking.
 
 ### Windows
 

@@ -6,13 +6,21 @@
     <description>Vibepad Link macOS update feed.</description>
     <language>en</language>
     <item>
+      <title>Vibepad Link 0.3.0</title>
+      <pubDate>Fri, 02 Oct 2026 14:41:32 +0900</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/shaircast/vibepad-link/releases/download/v0.3.0/VibepadLink-macOS.dmg" length="3015778" sparkle:edSignature="FLLvZ33M93Jjx2aHsHdJgR7fk/SoTWfkUKJVrXSxAUNCBrYYnQVXhwYTD4XNT1MnFsq3OuOK+T2Q5YFgsuhkCw==" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>Vibepad Link 0.2.1</title>
-      <description><![CDATA[
-        <ul>
-          <li>Resume pending setup events when Bluetooth is ready to send again, including the first successful test input.</li>
-          <li>Report failed input attempts during Finish Setup.</li>
-        </ul>
-      ]]></description>
+      <description>
+        &lt;ul&gt;
+          &lt;li&gt;Resume pending setup events when Bluetooth is ready to send again, including the first successful test input.&lt;/li&gt;
+          &lt;li&gt;Report failed input attempts during Finish Setup.&lt;/li&gt;
+        &lt;/ul&gt;
+      </description>
       <pubDate>Fri, 18 Sep 2026 10:07:16 +0900</pubDate>
       <sparkle:version>10</sparkle:version>
       <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
