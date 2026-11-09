@@ -6,6 +6,14 @@
     <description>Vibepad Link macOS update feed.</description>
     <language>en</language>
     <item>
+      <title>Vibepad Link 0.4.0</title>
+      <pubDate>Tue, 10 Nov 2026 00:18:27 +0900</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/shaircast/vibepad-link/releases/download/v0.4.0/VibepadLink-macOS.dmg" length="3104262" sparkle:edSignature="18r31vcwSAJw31zfxdaw2yRDebDLa1x6jpgpnK9Sn1+OhSWdyL3tgNOxYv+N5TWdE5DM7cpp/lId7jpaDoXHBw==" type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>Vibepad Link 0.3.0</title>
       <pubDate>Fri, 02 Oct 2026 14:41:32 +0900</pubDate>
       <sparkle:version>11</sparkle:version>

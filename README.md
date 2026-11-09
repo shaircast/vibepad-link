@@ -22,6 +22,7 @@ Vibepad Link is the desktop-side bridge for Vibepad.
 
 - Connects to the Vibepad app over Bluetooth Low Energy
 - Receives keyboard, mouse, and text input events
+- Holds keys like a physical keyboard while a shortcut button is pressed, with key repeat and several keys at once (Vibepad 0.8.0+)
 - On Mac, streams phone audio into the Vibepad Mic input for a desktop dictation app (Vibepad 0.7.0+); Bluetooth microphone is not yet supported on Windows
 - Runs quietly in the menu bar on macOS or the system tray on Windows
 - Lets one release page serve both desktop platforms
@@ -30,8 +31,8 @@ Vibepad Link is the desktop-side bridge for Vibepad.
 
 | Platform | Version | Asset | Notes |
 | --- | --- | --- | --- |
-| macOS | 0.3.0 | `VibepadLink-macOS.dmg` | Notarized DMG with drag-and-drop install; auto-updates in-app from 0.0.6 |
-| Windows | 0.3.0 | `VibepadLink-Windows.exe` | Portable executable |
+| macOS | 0.4.0 | `VibepadLink-macOS.dmg` | Notarized DMG with drag-and-drop install; auto-updates in-app from 0.0.6 |
+| Windows | 0.4.0 | `VibepadLink-Windows.exe` | Portable executable |
 
 Get both from the [Releases page](https://github.com/shaircast/vibepad-link/releases).
 
