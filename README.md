@@ -32,7 +32,7 @@ Vibepad Link is the desktop-side bridge for Vibepad.
 | Platform | Version | Asset | Notes |
 | --- | --- | --- | --- |
 | macOS | 0.4.0 | `VibepadLink-macOS.dmg` | Notarized DMG with drag-and-drop install; auto-updates in-app from 0.0.6 |
-| Windows | 0.4.0 | `VibepadLink-Windows.exe` | Portable executable |
+| Windows | 0.5.0 | `VibepadLink-Windows.exe` | Installs itself for your account on first run, no administrator rights; updates in place from 0.5.0 |
 
 Get both from the [Releases page](https://github.com/shaircast/vibepad-link/releases).
 
@@ -50,8 +50,12 @@ For Bluetooth microphone use, install **Vibepad Mic** from Finish Setup or Setti
 ### Windows
 
 1. Download `VibepadLink-Windows.exe` from the latest release.
-2. Run the executable.
-3. If Windows SmartScreen appears, choose `More info` and then `Run anyway`.
+2. Open it. If Windows SmartScreen appears, choose `More info` and then `Run anyway`.
+3. Vibepad Link installs itself for your account, adds a Start menu entry and opens. The downloaded file can be deleted.
+
+Updating from 0.4.0 or earlier works the same way: open the new download and it replaces the running helper, keeping your remembered phone and settings.
+
+To remove it, uninstall **Vibepad Link** from `Settings > Apps > Installed apps`.
 
 ## Connect to Vibepad
 
@@ -62,4 +66,4 @@ For Bluetooth microphone use, install **Vibepad Mic** from Finish Setup or Setti
 ## Permissions
 
 - macOS requires `Accessibility` permission to inject keyboard and mouse events.
-- Windows does not require administrator privileges for normal use.
+- Windows does not require administrator privileges. The first time a phone connects, Windows asks to pair it; confirm the same code on the phone and the PC.
