@@ -32,7 +32,7 @@ Vibepad Link is the desktop-side bridge for Vibepad.
 | Platform | Version | Asset | Notes |
 | --- | --- | --- | --- |
 | macOS | 0.4.0 | `VibepadLink-macOS.dmg` | Notarized DMG with drag-and-drop install; auto-updates in-app from 0.0.6 |
-| Windows | 0.5.0 | `VibepadLink-Windows.exe` | Installs itself for your account on first run, no administrator rights; updates in place from 0.5.0 |
+| Windows | 0.5.1 | `VibepadLink-Windows.exe` | Installs itself for your account on first run, no administrator rights; updates in place from 0.5.0 |
 
 Get both from the [Releases page](https://github.com/shaircast/vibepad-link/releases).
 
